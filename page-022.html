@@ -1,0 +1,90 @@
+﻿<script type="text/javascript">
+
+$(function(){
+  $("dl").on("click", "dt", function() {
+    $("dd").not($(this).next()).slideUp()
+      .prev().removeClass("active");
+    $(this).next().slideToggle()
+      .end().toggleClass("active");
+  });
+});
+</script>
+
+
+
+
+<br />
+<div class="p-3em">
+<div class="accordion-wrap">
+<h4>
+1 Introduction
+</h4>
+<dl class="accordion-dl">
+  <dd>1.1 はじめに</dd>
+</dl>
+</div>
+<div class="accordion-wrap">
+<h4>
+2 Google Blogger
+</h4>
+<dl class="accordion-dl">
+<dt>2.1 Blogger Tips</dt>
+<dd><div>
+2.1.1&nbsp;<a href="http://tom-tips.blogspot.jp/2016/08/html_27.html" rel="nofollow">Bloggerの投稿ページのhtmlコードを、オフラインでも表示する方法</a></div>
+</dd>
+</dl>
+</div>
+<div class="accordion-wrap">
+<h4>
+3 HTML
+</h4>
+<dl class="accordion-dl">
+<dt>3.1 HTML Tips - (Blogger)</dt>
+<dd>
+<div>3.1.1&nbsp;<a href="http://tom-tips.blogspot.jp/2016/08/div-p.html" rel="nofollow">"div"タグと 、"p"タグ</a></div>
+<dt>3.2 HTML Tips</dt>
+<dd>
+<div>3.2.1&nbsp;<a href="http://tom-tips.blogspot.jp/2016/08/html.html" rel="nofollow">最小限の記述</a></div>
+<div>3.2.2&nbsp;<a href="http://tom-tips.blogspot.jp/2016/08/html_27.html" rel="nofollow">HTMLの基本形</a></div>
+</dd>
+</dl>
+</div>
+<div class="accordion-wrap">
+<h4>
+4 CSS
+</h4>
+<dl class="accordion-dl">
+<dt>4.1 CSS Tips - (Blogger)</dt>
+<dd></dd>
+<dt>4.2 CSS Tips</dt>
+<dd></dd>
+</dl>
+</div>
+<div class="accordion-wrap">
+<h4>
+5 jQuery
+</h4>
+<dl class="accordion-dl">
+<dt>5.1 jQuery Tips - (Blogger)</dt>
+<dd></dd>
+<dt>5.2 jQuery Tips</dt>
+<dd></dd>
+</dl>
+</div>
+<div class="accordion-wrap">
+<h4>
+6 Javascript
+</h4>
+<dl class="accordion-dl">
+<dt>6.1 Javascript Tips - (Blogger)</dt>
+<dd>
+<div>6.1.1&nbsp;<a href="http://tom-tips.blogspot.jp/2016/09/javascript.html" rel="nofollow">HTMLに、外部Javascriptを読み込む</a></div>
+<div>6.1.2&nbsp;<a href="http://tom-tips.blogspot.jp/2016/09/htmljavascript.html" rel="nofollow">HTMLに直接、JavaScriptを書き込む</a></div>
+</dd>
+<dt>5.2 Javascript Tips</dt>
+<dd></dd>
+</dl>
+</div>
+</div>
+<a href="http://tom-tips.blogspot.jp/p/test.html" rel="nofollow"><span style="color: white; font-size: xx-small;">□</span></a>
+
