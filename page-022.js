@@ -1,4 +1,5 @@
-<div id="page-3">
+docuemnt.write("
+
 
 ﻿<script type="text/javascript">
 
@@ -91,3 +92,5 @@ $(function(){
 <a href="http://tom-tips.blogspot.jp/p/test.html" rel="nofollow"><span style="color: white; font-size: xx-small;">□</span></a>
 
 </div>
+
+"); 
