@@ -1,3 +1,0 @@
-$( function() {
-    $( '.tabs-main' ) . tabs();
-});
